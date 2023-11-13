@@ -1,0 +1,55 @@
+body {
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image:linear-gradient(black,rgb(8, 29, 97),rgb(75, 135, 204),rgb(4, 17, 43));
+  color: #fff;
+}
+
+header {
+  background-color: #1b12044d;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
+section {
+  padding: 20px;
+  background-color: #1f05059f;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 32px;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.round-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#contact .owner-info {
+  text-align: center;
+}
+
+footer {
+  background-color: #452d0ba4;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
